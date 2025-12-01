@@ -1,0 +1,246 @@
+Design and build a high-converting, single-page marketing website for:
+
+Brand: Haki
+Product: “Mira OS – The Haki Front Office Takeover™”
+Audience: Home service & trades businesses (roofing, lawn care, junk removal, cleaning, HVAC, etc.)
+Goal of the page: Get visitors to book a “Front Office Takeover Call” where they hire Haki to install and RUN Mira OS for them as a permanent AI COO. This is a DONE-FOR-YOU, MANAGED-FOR-LIFE offer, not DIY software.
+
+Overall vibe:
+- Dark, premium SaaS look (like Apple meets Stripe) with subtle gradients and glows.
+- Feels like a serious, enterprise-grade AI control center for blue-collar businesses.
+- Copy voice: Alex Hormozi + Sabri Suby + Dan Martell. Direct, confident, no fluff. Jaylen (founder) is the guy who hates bottlenecks and builds systems that never miss a lead.
+- Make Jaylen / Haki look like the AI guru and “secret weapon” for home service owners.
+
+Tech + layout notes:
+- Use HTML/CSS/JS only (no backend). Everything on one page with smooth scroll navigation.
+- Mobile-first, fully responsive.
+- Sticky top nav with logo (Haki / Mira OS), links: “How It Works”, “Offer”, “Results”, “FAQ”, and a primary CTA button “Book Takeover Call”.
+- Use the existing dark-gradient aesthetic (deep navy/black background, soft cards, pill buttons, slight glassmorphism).
+
+========================
+CORE OFFER & POSITIONING
+========================
+
+Core positioning line:
+“Hire Haki to run your entire front office with AI. Never miss a call, lead, or job again.”
+
+Sub-positioning:
+“You’re not buying software. You’re hiring an AI COO. We install Mira OS once, then we run it for you every day so you never think about your front office again.”
+
+Explain clearly: this is NOT DIY software. Owners are:
+- Hiring Haki as their AI COO.
+- Getting Mira OS as the engine Haki runs for them.
+- Paying once for a custom install, then monthly for Haki to keep it printing revenue.
+
+=====================
+STRUCTURE OF THE PAGE
+=====================
+
+1. HERO SECTION
+----------------
+Elements:
+- Eyebrow: “NEW · Done-For-You AI COO for Home Service”
+- Big headline (2 lines):
+  “Your AI COO for home service—installed and run for you.”
+  “Never miss a lead again.”
+- Subheadline:
+  Explain in 2–3 sentences that Haki installs Mira OS and then operates it as their permanent front office:
+  - Answers every call/text
+  - Filters spam
+  - Prices jobs from their playbook
+  - Books jobs into their calendar
+  - Follows up for reviews and repeat work
+  - Haki watches and tunes everything so the owner doesn’t have to log into dashboards.
+
+- Primary CTA button: “Book a Front Office Takeover Call”
+- Secondary CTA button (ghost style): “See How the Takeover Works”
+- Micro-footnote: “December Founders: grandfathered pricing for life. Rates rise 25–50% in January.”
+
+On the right side:
+- Keep a single “Mira OS Live” stats card similar to the existing one, but clearly labeled:
+  - “Monitored by Haki in real time”
+  - Metrics like “Leads saved from missed calls”, “Jobs quoted today”, “Deals closed via text”, “Spam blocked”.
+  - A line under it: “You never have to look at this. We do.”
+
+2. THE PROBLEM / AGITATION
+--------------------------
+Section title: “Your leads don’t wait. Your front office can’t either.”
+
+Short paragraph explaining:
+- Missed calls = lost jobs.
+- Slow replies = lost quotes.
+- Call centers and receptionists are expensive, sleep, churn, or can’t follow the exact playbook.
+- DIY software just gives tools and notifications; nobody actually runs it.
+
+Bullet list of pains:
+- Missed calls that never call back.
+- Quotes sitting in inboxes instead of on the schedule.
+- Ad spend sending leads into a black hole.
+- Owner stuck answering phones instead of running the company.
+
+3. THE HAKI FRONT OFFICE TAKEOVER™
+----------------------------------
+Explain the core offer as ONE package (no tiers visible on the page):
+
+Section heading: “The Haki Front Office Takeover™”
+
+Subheading: “One install. One monthly partnership. Your front line handled forever.”
+
+Explain that this package includes ALL core Mira OS capabilities, installed and run by Haki:
+
+Bullets (all framed as “We do X for you…”):
+- Install and configure Mira OS as your 24/7 AI receptionist and coordinator.
+- Answer every call and text, using your voice and scripts.
+- Filter spam and tire-kickers so your team only sees real buyers.
+- Pull pricing from your playbook and send accurate quotes.
+- Push qualified leads straight into your booking links / CRM.
+- Trigger follow-up texts and reminders until jobs are booked.
+- Ask for 5-star reviews after every job, on autopilot.
+- Maintain a living FAQ / knowledge base so Mira can answer anything customers ask.
+- Monitor logs, response times, and conversion data.
+- Continuously tune prompts and flows so performance improves over time.
+
+Pricing in this section should be shown as RANGES, not fixed tiers:
+
+Text example (you generate exact copy):
+
+“Most Front Office Takeovers land between:
+- Install: $4,997 – $9,997 one-time
+- Partnership: $1,497 – $2,997 / month
+Exact quote depends on call volume, number of services, and tools we integrate. We give your exact price on the Takeover Call.”
+
+Add a line: “If we can’t show you how the system pays for itself in missed-lead recovery and bookings, we’ll tell you not to buy.”
+
+Primary CTA button again: “Book a Front Office Takeover Call”
+
+4. OPTIONAL ADD-ONS (2 CARDS)
+------------------------------
+We still only have ONE main package; these are clearly labeled “Add-ons” and look like simple cards under the core offer, not full tiers.
+
+Card 1 – Voice AI:
+Title: “Voice AI Receptionist (Optional Add-On)”
+Explain:
+- Haki hooks Mira into Quo so inbound calls are answered by a natural-sounding AI receptionist.
+- Voice agent follows the same rules/playbook.
+- Books jobs, takes messages, routes emergencies.
+- Owner never has to pick up “unknown numbers” again.
+
+Price copy:
+“Starts from +$497/mo and a one-time voice setup. Exact pricing based on call volume.”
+
+Card 2 – Catalyst Growth Engine:
+Title: “Catalyst Growth Engine (Optional Add-On)”
+Explain clearly this is the ONLY “growth module”:
+- AI that turns Mira’s front office into a growth engine.
+- Manages simple lead gen campaigns, retargeting, and remarketing.
+- Interfaces with ads and content to fill the pipeline.
+- Monitors trends and plugs into social media / simple ad automations.
+- Not a media-buying agency; it’s a growth assist that keeps leads flowing and nurtured.
+
+Price copy:
+“Growth partnerships typically start from +$1,000/mo and a one-time campaign build fee. We scope this live on the call based on your market and ambition.”
+
+Under both cards, include a line:
+“You can start with the Front Office Takeover and add Voice or Catalyst later once the core system is printing.”
+
+5. HOW IT WORKS (4 STEPS)
+--------------------------
+Section heading: “How the Takeover Works”
+
+Make a 4-step visual timeline:
+
+1. Discovery & Playbook Intake  
+   - Haki interviews the owner, collects services, pricing, boundaries, and booking rules.  
+   - We build your “Front Office Playbook” so Mira speaks in your voice.
+
+2. Build & Connect  
+   - We install Mira OS, connect phone/text tools, integrate Quo if chosen, wire in booking links, CRM, and review platforms.
+
+3. Go Live & Optimize  
+   - We launch quietly, monitor every conversation, and tune until it feels like a world-class human team answering.
+
+4. Ongoing AI COO Partnership  
+   - As long as you’re on retainer, Haki keeps iterating scripts, flows, and modules.
+   - We roll out improvements, handle breakages, and keep your front office evolving.
+
+CTA after this section: “See what Haki would handle in your business → [Book Takeover Call]”
+
+6. SOCIAL PROOF / RESULTS SECTION
+---------------------------------
+Add a section titled: “What it feels like with Haki running your front office”
+
+Because you may not have real case studies yet, frame them as projected outcomes / testimonial-style statements:
+
+Small stat-style cards:
+- “X missed calls caught per month” (with placeholder numbers)
+- “Y additional jobs booked from text follow-up”
+- “Z% of leads answered in under 60 seconds”
+- Quote-style text boxes like: “It feels like hiring a world-class office team… without payroll.”
+
+7. GUARANTEE SECTION
+---------------------
+Title: “The ‘You’ll Feel Dumb You Didn’t Do This Sooner’ Guarantee”
+
+Explain:
+- After 60 days live, if they don’t feel like they’ve hired the most reliable front office they’ve ever had, Haki stays in to optimize 1:1 at no extra cost until it does.
+- Emphasize: “We win when your front office prints money reliably.”
+
+Add bullets:
+- Every missed call gets a follow-up automatically.
+- Every real lead gets quoted, routed, and pushed to book.
+- Every job has a chance to turn into a 5-star review and repeat work.
+
+CTA button: “Lock In Founder Pricing”
+
+8. WHO THIS IS FOR / NOT FOR
+-----------------------------
+Two-column section:
+
+“This is for you if…”
+- You run a real home service or trades business.
+- You’re already spending on marketing or getting inbound calls.
+- You’re tired of missed calls, slow replies, and messy follow-up.
+- You want one partner to own the front office forever.
+
+“This is NOT for you if…”
+- You’re still guessing at your pricing.
+- You want cheap software to play with, not a managed system.
+- You’re not ready to let go of the phones.
+
+9. FAQ SECTION
+--------------
+Include FAQs like:
+- “Is this software or a service?”
+- “Do I still need a receptionist?”
+- “How long does the install take?”
+- “What happens if I cancel?”
+- “Can I start without voice and add it later?”
+- “Do you work with my CRM/booking tools?”
+
+For “What happens if I cancel?” explain:
+“If you end the partnership, we shut off your license and automations—like firing your whole office team in one day. Your numbers will feel it.”
+
+10. FINAL CTA FOOTER
+--------------------
+Finish with a strong closing:
+
+Headline: “The next missed call could have been a booked job.”
+
+Subheadline: “Hire Haki once and your front office headaches are gone for good.”
+
+Big centered button: “Book Your Haki Front Office Takeover Call”
+
+Footer with simple text:
+“© Haki · Mira OS. Built to turn missed calls into booked jobs, forever.”
+
+=================
+DESIGN DIRECTION
+=================
+- Keep a sleek dark background with soft gradients and slightly glowing cards.
+- Use pill-shaped buttons and badges.
+- Use subtle hover states and micro-animations.
+- Typography: Inter or similar. Big, bold headlines.
+- Make CTAs very obvious and repeated.
+- No busy pricing tables. One main offer, two add-ons, and clear ranges.
+
+Build the full HTML/CSS/JS for this one-page site using semantic sections and IDs matching the nav (“how-it-works”, “offer”, “results”, “faq”, etc.). The main conversion event is the “Book Takeover Call” buttons, which should all scroll to the same booking section with a placeholder Calendly link I can replace.
