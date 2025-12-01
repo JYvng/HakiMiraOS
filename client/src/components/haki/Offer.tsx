@@ -38,13 +38,13 @@ export default function Offer() {
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h3 className="text-2xl font-bold text-white mb-6">We do it all for you:</h3>
-                <ul className="space-y-4">
+                <ul className="space-y-6">
                   {features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <div className="mt-1 h-5 w-5 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
                         <Check className="h-3 w-3 text-primary" />
                       </div>
-                      <span className="text-slate-300 text-sm">{feature}</span>
+                      <span className="text-slate-200 text-base font-medium">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -73,13 +73,17 @@ export default function Offer() {
                 <div className="mt-8 pt-6 border-t border-white/10">
                   <Button 
                     onClick={() => document.getElementById("booking")?.scrollIntoView({ behavior: "smooth" })}
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-6 text-lg rounded-xl mb-3 shadow-lg shadow-primary/20"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-6 text-lg rounded-xl mb-3 shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] transition-all"
                   >
                     Book Takeover Call
                   </Button>
-                  <p className="text-xs text-center text-muted-foreground">
+                  <p className="text-xs text-center text-muted-foreground mb-3">
                     If we can't show ROI on the call, we'll tell you not to buy.
                   </p>
+                  <div className="flex items-center justify-center gap-2 text-xs text-green-400 font-medium bg-green-500/10 py-2 rounded-lg">
+                    <Check className="h-3 w-3" />
+                    Most businesses recoup installation in 30–45 days.
+                  </div>
                 </div>
               </div>
             </div>

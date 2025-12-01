@@ -13,7 +13,7 @@ export default function Guarantee() {
             <ShieldCheck className="h-8 w-8" />
           </div>
           
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-display font-extrabold text-white mb-6 tracking-tight">
             The "You'll Feel Dumb You Didn't Do This Sooner" Guarantee
           </h2>
           
@@ -22,16 +22,16 @@ export default function Guarantee() {
           </p>
           
           <div className="grid sm:grid-cols-3 gap-4 text-left max-w-2xl mx-auto mb-10">
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+            <div className="flex items-center gap-2 text-sm text-slate-300 hover:text-primary transition-colors duration-300">
+              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0 animate-pulse" />
               Every missed call followed up
             </div>
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+            <div className="flex items-center gap-2 text-sm text-slate-300 hover:text-primary transition-colors duration-300">
+              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0 animate-pulse" />
               Every lead quoted & tracked
             </div>
-            <div className="flex items-center gap-2 text-sm text-slate-300">
-              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0" />
+            <div className="flex items-center gap-2 text-sm text-slate-300 hover:text-primary transition-colors duration-300">
+              <div className="h-1.5 w-1.5 rounded-full bg-primary shrink-0 animate-pulse" />
               More 5-star reviews on autopilot
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Guarantee() {
           <Button 
             onClick={() => document.getElementById("booking")?.scrollIntoView({ behavior: "smooth" })}
             size="lg"
-            className="bg-white text-black hover:bg-white/90 font-bold rounded-full px-8"
+            className="bg-white text-black hover:bg-white/90 font-bold rounded-full px-8 shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] transition-all hover:scale-105"
           >
             Lock In Founder Pricing
           </Button>

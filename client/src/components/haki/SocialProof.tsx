@@ -29,7 +29,7 @@ export default function SocialProof() {
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <div className="glass-panel p-8 md:p-10 rounded-2xl text-center relative">
+          <div className="glass-panel p-8 md:p-10 rounded-2xl text-center relative border border-primary/20 bg-white/5 shadow-[0_0_40px_rgba(0,0,0,0.5)]">
             <div className="text-4xl text-primary absolute top-4 left-6 opacity-50">"</div>
             <p className="text-xl md:text-2xl font-medium text-slate-200 leading-relaxed relative z-10">
               It feels like I hired a world-class office manager who never sleeps, never complains, and works for a fraction of the cost. I finally stopped checking my phone at dinner.
@@ -37,8 +37,8 @@ export default function SocialProof() {
             <div className="mt-6 flex items-center justify-center gap-3">
               <div className="h-10 w-10 rounded-full bg-gradient-to-br from-blue-400 to-purple-500" />
               <div className="text-left">
-                <div className="text-white font-bold text-sm">Early Adopter Partner</div>
-                <div className="text-muted-foreground text-xs">HVAC Business Owner</div>
+                <div className="text-white font-bold text-sm">Apex ProScape Owner</div>
+                <div className="text-muted-foreground text-xs">Early Adopter Partner</div>
               </div>
             </div>
           </div>

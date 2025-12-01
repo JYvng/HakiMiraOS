@@ -40,7 +40,7 @@ export default function Hero() {
             NEW · Done-For-You AI COO for Home Service
           </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-extrabold text-white leading-none tracking-tight mb-6">
             Your AI COO for home service—<br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
               installed and run for you.
@@ -55,7 +55,7 @@ export default function Hero() {
             <Button 
               onClick={scrollToBooking}
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full px-8 h-14 text-lg shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition-all"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold rounded-full px-8 h-14 text-lg shadow-[0_0_25px_rgba(59,130,246,0.5)] hover:shadow-[0_0_40px_rgba(59,130,246,0.7)] transition-all duration-300 hover:scale-105"
             >
               Book a Front Office Takeover Call
             </Button>
@@ -63,7 +63,7 @@ export default function Hero() {
               onClick={scrollToHowItWorks}
               variant="outline" 
               size="lg" 
-              className="bg-white/5 border-white/10 hover:bg-white/10 text-white rounded-full px-8 h-14 text-lg backdrop-blur-sm"
+              className="bg-white/5 border-white/10 hover:bg-white/10 text-white rounded-full px-8 h-14 text-lg backdrop-blur-sm transition-all hover:scale-105"
             >
               See How It Works
             </Button>
@@ -90,29 +90,29 @@ export default function Hero() {
                 <span className="text-xs text-muted-foreground uppercase tracking-widest">Mira OS v2.4</span>
               </div>
               
-              <div className="space-y-4">
-                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5">
+              <div className="space-y-5">
+                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
                   <div className="flex items-center gap-3">
                     <div className="p-2 rounded bg-blue-500/20 text-blue-400"><Phone size={18} /></div>
                     <span className="text-sm text-slate-300">Leads Saved (Today)</span>
                   </div>
-                  <span className="text-xl font-bold text-white">14</span>
+                  <span className="text-2xl font-bold text-white">14</span>
                 </div>
                 
-                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5">
+                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
                   <div className="flex items-center gap-3">
                     <div className="p-2 rounded bg-purple-500/20 text-purple-400"><CheckCircle2 size={18} /></div>
                     <span className="text-sm text-slate-300">Jobs Quoted</span>
                   </div>
-                  <span className="text-xl font-bold text-white">$4,250</span>
+                  <span className="text-2xl font-bold text-white">$4,250</span>
                 </div>
 
-                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5">
+                <div className="flex items-center justify-between p-3 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
                   <div className="flex items-center gap-3">
                     <div className="p-2 rounded bg-red-500/20 text-red-400"><ShieldCheck size={18} /></div>
                     <span className="text-sm text-slate-300">Spam Blocked</span>
                   </div>
-                  <span className="text-xl font-bold text-white">32</span>
+                  <span className="text-2xl font-bold text-white">32</span>
                 </div>
               </div>
 

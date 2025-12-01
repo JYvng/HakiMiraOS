@@ -8,7 +8,7 @@ export default function Problem() {
       description: "62% of calls to home service businesses go unanswered. Those leads call your competitor immediately."
     },
     {
-      icon: <Clock className="h-8 w-8 text-orange-400" />,
+      icon: <Clock className="h-8 w-8 text-orange-300" />,
       title: "Quotes sitting in inboxes",
       description: "Speed to lead is everything. If you take hours to quote, you've already lost the job."
     },
@@ -18,7 +18,7 @@ export default function Problem() {
       description: "Paying for clicks but dropping the ball on the phone? That's just lighting money on fire."
     },
     {
-      icon: <AlertTriangle className="h-8 w-8 text-yellow-400" />,
+      icon: <AlertTriangle className="h-8 w-8 text-yellow-300" />,
       title: "Owner stuck on the phone",
       description: "You should be running the crew or the business, not playing receptionist for tire kickers."
     }
