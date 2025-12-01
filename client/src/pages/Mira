@@ -1,0 +1,15 @@
+import React from "react";
+
+export default function Mira() {
+  return (
+    <div style={{ padding: "40px", maxWidth: "800px", margin: "0 auto" }}>
+      <h1 style={{ fontSize: "44px", fontWeight: 700, marginBottom: "20px" }}>
+        Mira OS – DIY Version
+      </h1>
+      <p style={{ fontSize: "20px", lineHeight: 1.6 }}>
+        This is the standalone product page for Mira OS.  
+        Here you’ll showcase the DIY features, pricing, modules, and setup wizard.
+      </p>
+    </div>
+  );
+}
