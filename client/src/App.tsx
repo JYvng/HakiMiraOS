@@ -3,14 +3,25 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+
+// adjust these imports to match your actual file names
+import Home from "./pages/Home";        // <-- existing landing page
 import NotFound from "@/pages/not-found";
-import Home from "@/pages/Home";
+import Mira from "./pages/Mira";        // <-- your new page
 
 function Router() {
   return (
     <Switch>
+      {/* main landing page */}
       <Route path="/" component={Home} />
-      <Route component={NotFound} />
+
+      {/* new Mira page */}
+      <Route path="/mira" component={Mira} />
+
+      {/* 404 fallback */}
+      <Route>
+        <NotFound />
+      </Route>
     </Switch>
   );
 }
