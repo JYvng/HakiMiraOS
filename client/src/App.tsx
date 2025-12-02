@@ -4,19 +4,22 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
-// adjust these imports to match your actual file names
-import Home from "./pages/Home";        // <-- existing landing page
-import NotFound from "@/pages/not-found";
-import Mira from "./pages/Mira";        // <-- your new page
+// 🔹 OLD landing page (whatever the original was)
+import OldLanding from "./pages/Home";   // ⬅️ change "Home" to the actual file name if different
+
+// 🔹 NEW DFY page (you saved this as Mira.tsx)
+import Mira from "./pages/Mira";
+
+import NotFound from "e/pages/not-found";
 
 function Router() {
   return (
     <Switch>
-      {/* main landing page */}
-      <Route path="/" component={Home} />
+      {/* NEW DFY homepage */}
+      <Route path="/" component={Mira} />
 
-      {/* new Mira page */}
-      <Route path="/mira" component={Mira} />
+      {/* OLD SaaS / original page now lives under /app */}
+      <Route path="/app" component={OldLanding} />
 
       {/* 404 fallback */}
       <Route>
